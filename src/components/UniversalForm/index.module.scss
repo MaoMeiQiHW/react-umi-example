@@ -1,0 +1,42 @@
+.components{
+    .inputItem{
+        padding-bottom: 30px;
+        .input{
+            color: #000000;
+            font-size: 16px;
+        }
+        .obtainButton{
+            width: 96px;
+            height: 35px;
+            color: #FFFFFF;
+            background-image: linear-gradient(#E6D579, #D5B24D);
+            border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+            padding: 5px 13px;
+        }
+    }
+    .flexRow{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    .itemBottom{
+        //padding-bottom: 30px;
+    }
+    .inputTitle{
+        white-space: nowrap;
+        color: #000000;
+        font-size: 16px;
+    }
+    .remarks{
+        color: #999999;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .title{
+        color: #666666;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}

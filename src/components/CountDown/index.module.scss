@@ -1,0 +1,38 @@
+.countdown{
+    justify-content: center;
+    padding: 20px 32px;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    .timeIcon{
+        width: 16px;
+        height: auto;
+        padding-right: 5px;
+    }
+    .activityTime{
+        color: #312B02;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .countdownText{
+        color: #312B02;
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: bold;
+    }
+    .timeText{
+        width: 24px;
+        text-align: center;
+        color: #F7E4AA;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #312B02;
+        border-radius: 2px;
+    }
+}
+.flexRow{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
