@@ -18,7 +18,8 @@
     "prop-types": "^15.7.2",
     "qs": "^6.9.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "umi-plugin-keep-alive": "^0.0.1-beta.16"
   },
   "devDependencies": {
     "@umijs/preset-react": "^1",

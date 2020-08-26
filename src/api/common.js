@@ -36,3 +36,16 @@ export function getQueryVariable(variable) {
     return false;
 }
 
+//promise测试
+export function promiseTest1() {
+ return new Promise((resolve,reject)=>{
+   setTimeout(()=>{console.log('test1')},1000)
+ })
+}
+
+export function promiseTest2() {
+  return new Promise((resolve,reject)=>{
+    setTimeout(()=>{console.log('test2')},1000)
+  })
+}
+
