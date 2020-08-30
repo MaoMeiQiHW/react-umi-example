@@ -9,10 +9,11 @@ export default class Http {
           timeout: timeout ? timeout : 30000,
           headers: {
             authorization: sessionStorage.getItem('token'),
+            "content-type": "application/x-www-form-urlencoded",
           },
         })
         .then((result) => {
-          resolve(result.data);
+          resolve(result);
         })
         .catch((error) => {
           reject(error);

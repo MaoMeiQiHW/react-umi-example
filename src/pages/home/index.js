@@ -4,6 +4,7 @@ import { history } from 'umi';
 import { Button } from '@material-ui/core';
 import styles from './index.module.scss';
 import { withStyles } from '@material-ui/core/styles';
+import service from '../../utils/Http';
 import * as Api from '../../api/common';
 
 const StyledButton = withStyles({
@@ -75,6 +76,16 @@ class App extends Component{
     }).catch((e)=>{
       console.log(e)
     })
+
+    service
+      .get('/api/users', {
+
+      })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((err) => {
+      });
   }
 
   handClick=()=>{

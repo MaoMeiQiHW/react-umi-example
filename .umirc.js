@@ -15,4 +15,11 @@ export default {
   dva: {},
   dynamicImport: false,
   title: 'react-umi-example',
+  proxy: {
+    '/api': {
+      'target': 'http://jsonplaceholder.typicode.com/',
+      'changeOrigin': true,
+      'pathRewrite': { '^/api' : '' },
+    },
+  }
 }
