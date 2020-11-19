@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import AhooksTest from '../../components/AhooksTest';
 
 class User extends Component{
   constructor(props) {
@@ -12,6 +13,7 @@ class User extends Component{
     return(
       <div>
         上个页面传递的参数：{this.state.id}
+        <AhooksTest/>
       </div>
     )
   }
